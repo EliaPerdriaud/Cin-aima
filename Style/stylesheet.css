@@ -1,0 +1,244 @@
+
+
+.titre{
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color:black;
+    color:white;
+    padding:15px;
+    opacity:0.8;
+    border-radius: 5px;
+}
+
+
+.container{
+    width: 50%;
+}
+
+.description{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left :auto;
+    margin-right :auto;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: white;
+    text-align: justify;
+    max-height: 570px;
+    
+}
+
+.description:first-child{
+    align-self:center;
+}
+
+.poster {
+    margin: auto 6%;
+    box-shadow: 3px 3px 3px rgb(54, 54, 54);
+}
+
+.image{
+    width: 241,5px;
+	height: 345px;
+    }
+
+.details{
+    margin: auto;
+    width: 800px;
+	height: 450px;
+    background-color: #191919;
+    display: grid;
+}
+
+.details-acteurs{
+    margin: auto;
+    width: 1000px;
+	height: 570px;
+    background-color: #191919;
+    display: grid;
+}
+
+.text-details{
+    text-align: justify;
+    margin:auto;
+    
+}
+
+.synopsis{
+    margin: auto 6%;
+    width: 1600px;
+}
+
+.scroller{
+    width: 1600px;
+    height: 500px;
+    overflow-y: scroll;
+    scrollbar-color:black white;
+    scrollbar-width: thin;
+}
+
+.number{
+    align-self: center;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.votes{
+    font-size: 14px;
+    color: lightgray;
+    font-style: italic;
+}
+
+.lien{
+    text-decoration: none;
+    color: black;
+}
+
+.lien:hover{
+    color: cadetblue;
+}
+
+.bulle{
+    font-size: 10px;
+}
+
+
+/*index*/
+
+body {
+	font-family: 'PT Sans Caption',"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 3vh;
+}	
+
+.fond {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	padding: 1em;
+	box-sizing: border-box;
+	color: white;
+    background: url(Images/cinema.jpeg) center center no-repeat;
+	background-size: cover;
+}
+
+.fond-title {
+	max-width: 12em;
+	margin: 0;
+	font-size: 12vh;
+	font-weight: bold;
+	line-height: .9;
+}
+	
+
+/* Acun résultat */
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  #notfound {
+    position: relative;
+    height: 100vh;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 200px;
+    margin: 0px auto 20px;
+    z-index: -1;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 236px;
+    font-weight: 200;
+    margin: 0px;
+    color: #211b19;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound .notfound-404 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #211b19;
+    background: #fff;
+    padding: 10px 5px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+  
+  .notfound a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 23px;
+    background: #000000;
+    font-size: 18px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .notfound a:hover {
+    color: #63c1dd;
+    background: #4e4e4e;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .notfound .notfound-404 h1 {
+      font-size: 148px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+      height: 148px;
+      margin: 0px auto 10px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 86px;
+    }
+    .notfound .notfound-404 h2 {
+      font-size: 16px;
+    }
+    .notfound a {
+      padding: 7px 15px;
+      font-size: 14px;
+    }
+  }
+
+
